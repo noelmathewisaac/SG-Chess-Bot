@@ -18,4 +18,4 @@ This telegram bot scrapes the websites of [Singapore Chess Federation](https://w
 [Python Telegram Bot](https://github.com/python-telegram-bot/python-telegram-bot) - python API to build telegram bots  
 [BeautifulSoup](https://pypi.org/project/beautifulsoup4/) - library for scraping  
 [Dialogflow](https://dialogflow.com/) - chatbot backend for basic conversations  
-[Heroku Postgres](https://www.heroku.com/postgres) - database to store user data  
+[Heroku Postgres](https://www.heroku.com/postgres) - SQL database to store user data  
