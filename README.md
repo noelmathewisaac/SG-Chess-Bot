@@ -6,13 +6,16 @@ This telegram bot scrapes the websites of [Singapore Chess Federation](https://w
 ♜ Receive notifications when a new tournament is added  
 ♝ Set reminders for tournament dates and registration deadlines  
 ♞ Read famous chess quotes  
-
 ## Commands
-`/start`  Start or restart the bot  
-`/map`  Map of Chess Clubs & Meetups  
-`/tournaments`  Upcoming Chess Tournaments  
-`/clubs`  List of Chess Clubs & Meetups  
-`/reminder`  Set a reminder for upcoming tournaments  
-`/quotes`  Get a famous chess quote  
-`/help`  See a list of commands  
-
+`/start`  - start or restart the bot  
+`/map`  - map of Chess Clubs & Meetups  
+`/tournaments`  - upcoming Chess Tournaments  
+`/clubs`  - list of Chess Clubs & Meetups  
+`/reminder`  - set a reminder for upcoming tournaments  
+`/quotes`  - get a famous chess quote  
+`/help`  - see a list of commands
+## Built With
+[Python Telegram Bot](https://github.com/python-telegram-bot/python-telegram-bot) - python API to build telegram bots  
+[BeautifulSoup](https://pypi.org/project/beautifulsoup4/) - library for scraping  
+[Dialogflow](https://dialogflow.com/) - chatbot backend for basic conversations  
+[Heroku Postgres](https://www.heroku.com/postgres) - database to store user data  
