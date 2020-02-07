@@ -1,5 +1,7 @@
 # SG Chess Bot
-This telegram bot scrapes the websites of [Singapore Chess Federation](https://www.singaporechess.org.sg/) and [Chess Academy Singapore](https://chessacademysg.com/) and aggregates information about chess tournaments to make it easier to keep track of upcoming events. It also displays other useful chess related information specific to Singapore such as club/meetup locations and can carry out basic conversations with users.
+This telegram bot scrapes the websites of [Singapore Chess Federation](https://www.singaporechess.org.sg/) and [Chess Academy Singapore](https://chessacademysg.com/) and aggregates information about chess tournaments to make it easier to keep track of upcoming events. It also displays other useful chess related information specific to Singapore such as club/meetup locations and can carry out basic conversations with users.  
+
+Check it out on telegram using the handle [@sgchessbot](https://t.me/sgchessbot)
 ## Features
 ♚ View a list of upcoming tournaments (from websites of Singapore Chess Federation & Chess Academy Singapore)  
 ♛ View a map and list of Chess Clubs/Meetups  
@@ -19,3 +21,6 @@ This telegram bot scrapes the websites of [Singapore Chess Federation](https://w
 [BeautifulSoup](https://pypi.org/project/beautifulsoup4/) - library for scraping  
 [Dialogflow](https://dialogflow.com/) - chatbot backend for basic conversations  
 [Heroku Postgres](https://www.heroku.com/postgres) - SQL database to store user data  
+&nbsp;
+
+<img src="/demo/demo.gif" height="600" width="300">
