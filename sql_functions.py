@@ -131,7 +131,7 @@ class sql_db:
         conn.commit()
         conn.close()
     
-    def val_in_row(self, table, val, row_num):
+    def val_in_row(self, table, val, row_index):
         """Check if a given value is present in a row"""   
 
         #Get column names of table
@@ -141,7 +141,7 @@ class sql_db:
         all_rows=self.all_rows(table)
         flag=False
         for col in columns:
-            if val==all_rows[row_num-1][col]:
+            if val==all_rows[row_index][col]:
                 flag=True
         return flag
         
