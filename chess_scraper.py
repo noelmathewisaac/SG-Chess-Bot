@@ -252,7 +252,9 @@ class Scraper():
                         Event_year=datetime.now().date().year()
                     else:
                         Event_year[i]=re.search("\d\d\d\d",Event_date[i]).group(0)
-                    Event_day[i]=re.search("\d\d", Event_date[i],re.IGNORECASE).group(0)        
+                    Event_day[i]=re.search("\d\dst|\d\dnd|\d\drd|\d\dth|\dst|\dnd|\drd|\dth|\d\d\sJan|\d\d\sFeb|\d\d\sMar|\d\d\sApr|\d\d\sMay|\d\d\sJun|\d\d\sJul|\d\d\sAug|\d\d\sSep|\d\d\sOct|\d\d\sNov|\d\d\sDec|\d\d|\d|closed", Event_date[i],re.IGNORECASE).group(0)
+                    if(Event_day[i]!=""):
+                        Event_day[i]=re.search("\d\d|\d", Event_day[i], re.IGNORECASE).group(0)       
 
         Event_month = month_to_num(Event_month)
 
