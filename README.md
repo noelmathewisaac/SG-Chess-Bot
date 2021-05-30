@@ -1,6 +1,6 @@
 # SG Chess Bot
 <a href="https://t.me/sgchessbot">
-    <img src="https://img.shields.io/badge/telegram-200%2B%20users-blue">
+    <img src="https://img.shields.io/badge/dynamic/json?color=blue&label=telegram&query=values&suffix=%20users&url=https%3A%2F%2Fdata.heroku.com%2Fdataclips%2Foqwampvrbiusxumrjluzcsfnirwx.json">
 </a>
 
 This telegram bot scrapes the websites of [Singapore Chess Federation](https://www.singaporechess.org.sg/) and [Chess Academy Singapore](https://chessacademysg.com/) and aggregates information about chess tournaments to make it easier to keep track of upcoming events. It also displays other useful chess related information specific to Singapore such as club/meetup locations and can carry out basic conversations with users.  
